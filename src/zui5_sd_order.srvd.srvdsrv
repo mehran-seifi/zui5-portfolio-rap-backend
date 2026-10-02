@@ -1,0 +1,4 @@
+@EndUserText.label: 'Portfolio Orders Service'
+define service ZUI5_SD_ORDER {
+  expose ZI_UI5_ORDER;
+}

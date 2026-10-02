@@ -1,0 +1,14 @@
+managed implementation in class zbp_i_ui5_order unique;
+strict ( 2 );
+
+define behavior for ZI_UI5_ORDER alias Order
+persistent table zui5_order
+lock master
+authorization master ( instance )
+{
+  create;
+  update;
+  delete;
+
+  field ( readonly ) OrderUUID;
+}
